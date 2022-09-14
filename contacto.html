@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Contáctame</title>
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
@@ -34,7 +34,8 @@
                 <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
                     aria-labelledby="offcanvasDarkNavbarLabel">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"><a href="index.html" class="text-decoration-none text-light">Omar</a></h5>
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"><a href="index.html"
+                                class="text-decoration-none text-light">Omar</a></h5>
                         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                             aria-label="Close"></button>
                     </div>
@@ -54,41 +55,22 @@
                 </div>
             </div>
         </nav>
-        <div class="row mx-auto mb-5">
-            <div class="col-12 col-lg-5">
-                <div class="photo rounded-circle">
-                </div>
-                <div>
-                    <h1 class="text-center text-light mt-5 fw-bold fs-2">
-                        Hola! Soy Sergio
-                        <br>
-                        Te invito a conocerme
-                        <br>
-                        <a href="about.html" class="btn btn-outline-light m-3">Sobre mi</a>
-                    </h1>
-                </div>
-                
+        <form class="container p-5 text-light text-center">
+            <div class="mb-5 mx-3">
+                <label for="Nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="Nombre" placeholder="Nombre completo">
             </div>
-            <p class="d-none d-lg-block text-light col-lg-6 p-5 fs-5 fw-semibold">
-                Soy estudiante de programación Fullstack JavaScript en la academia Desafio Latam. Me inicié en la programación web sin tener conocimientos previos y he obtenido grandes progresos en el poco tiempo que llevo de estudios.
-                <br>
-                <br>
-                Se que aún me falta un buen tramo que recorrer y tengo demasiadas cosas que aprender, pero en el futuro quisiera dedicarme al desarrollo web y aplicaciones, y por que no al desarrollo de videojuegos. 
-            </p>
-        </div>
-        <div class="fixed-bottom mb-5"> 
-            <p class="d-none d-lg-block text-light text-end marginFollow fs-4 fw-bold">
-                Sígueme en
-                <a class="text-decoration-none text-light" target="_blank" href="https://github.com/OmarArayaGhiani"><i class="fa-brands fa-github m-1"></i></a>
-                <a class="text-decoration-none text-light" target="_blank" href="https://www.instagram.com/sergio.araya.ghiani/"><i class="fa-brands fa-instagram m-1"></i></a>
-                <a class="text-decoration-none text-light" target="_blank" href="https://www.linkedin.com/in/sergio-araya-ghiani-bb0b4a229/"><i class="fa-brands fa-linkedin m-1"></i></a>
-            </p>
-            <p class="d-block d-lg-none text-light text-center fs-4 fw-bold">
-                <a class="text-decoration-none text-light" target="_blank" href="https://github.com/OmarArayaGhiani"><i class="fa-brands fa-github m-3"></i></a>
-                <a class="text-decoration-none text-light" target="_blank" href="https://www.instagram.com/sergio.araya.ghiani/"><i class="fa-brands fa-instagram m-3"></i></a>
-                <a class="text-decoration-none text-light" target="_blank" href="https://www.linkedin.com/in/sergio-araya-ghiani-bb0b4a229/"><i class="fa-brands fa-linkedin m-3"></i></a>
-            </p>
-        </div>
+            <div class="mb-5 mx-3">
+                <label for="exampleInputPassword1" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Correo@electronico.com">
+            </div>
+            <div class="mb-5 mx-3">
+                <label for="Nombre" class="form-label">Déjame tu comentario</label>
+                <textarea class="form-control" id="floatingTextarea2" style="height: 100px"></textarea>
+            </div>
+            <button type="submit" class="btn btn-outline-light">Contáctame</button>
+        </form>
     </header>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
