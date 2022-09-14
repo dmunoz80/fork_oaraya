@@ -1,0 +1,53 @@
+* {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.mainHeader {
+    background-image: url(../img/bg.jpg  );
+    padding-top: 10rem;
+    height: 100vh;
+}
+
+.offHeader {
+    background-image: url(../img/bg.jpg  );
+    padding-top: 10rem;
+    height: auto;
+}
+
+@media (min-width: 992px) {
+    .offHeader {
+        background-image: url(../img/bg.jpg  );
+        padding-top: 10rem;
+        height: 100vh;
+    }
+}
+
+
+@media (min-width: 640px) {
+    .navBorder {
+        border-radius: .5rem;
+    }
+}
+
+.photo {
+    background-image: url(../img/bg_photo.jpeg);
+    background-size: cover;
+    border: 5px gainsboro solid;
+    margin: auto;
+    width: 20rem;
+    height: 20rem;
+}
+
+.marginFollow {
+    margin-right: 10rem;
+}
+
+.cardWidth {
+    width: 20rem;
+    height: 34rem;
+}
+
+.page {
+    font-size: 12px;
+}
