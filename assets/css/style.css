@@ -4,20 +4,20 @@
 }
 
 .mainHeader {
-    background-image: url(../img/bg.jpg  );
+    background-image: url(../img/bg_fork.jpg  );
     padding-top: 10rem;
     height: 100vh;
 }
 
 .offHeader {
-    background-image: url(../img/bg.jpg  );
+    background-image: url(../img/bg_fork.jpg  );
     padding-top: 10rem;
     height: auto;
 }
 
 @media (min-width: 992px) {
     .offHeader {
-        background-image: url(../img/bg.jpg  );
+        background-image: url(../img/bg_fork.jpg  );
         padding-top: 10rem;
         height: 100vh;
     }
